@@ -12,13 +12,13 @@ int main(void) {
         PORTB |= (1 << LED_PIN);
         
         // Wait for 1 second
-        _delay_ms(400);
+        _delay_ms(1000);
         
         // Turn LED off
         PORTB &= ~(1 << LED_PIN);
         
         // Wait for 1 second
-        _delay_ms(400);
+        _delay_ms(1000);
     }
     
     return 0;

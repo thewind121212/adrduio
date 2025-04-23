@@ -183,7 +183,7 @@ int main(void)
     setup(); // Setup the pins for output
     while (1)
     {
-        binaryCount();
+        randomLed();
     }
     return 0;
 }
